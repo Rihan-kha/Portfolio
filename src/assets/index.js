@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,6 +8,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import cpp from "./tech/cpp.png";
+import postgre from "./tech/postgre.png";
+import python from "./tech/python.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -25,10 +28,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import inamigo from "./company/inamigo.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import MangoStore from "./MangoStore.png";
 
 export {
   logo,
@@ -59,4 +64,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  cpp,
+  postgre,
+  python,
+  inamigo,
+  MangoStore,
+
 };
