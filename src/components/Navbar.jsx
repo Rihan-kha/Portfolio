@@ -29,6 +29,25 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className="text-white text-[18px] font-bold cursor-pointer"> Rihan Riyaz Khan<span className="sm:block hidden"> Software Developer</span></p>
         </Link>
+        <div>
+        <a
+          href='https://www.linkedin.com/in/rihan-riyaz-khan-304582341/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-white hover:text-[#915eff]'
+        >
+          LinkedIn
+        </a>
+         &nbsp; | &nbsp;
+        <a
+          href='https://github.com/Rihan-kha'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-white hover:text-[#915eff]'
+        >
+          Github
+        </a>
+        </div>
         
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
