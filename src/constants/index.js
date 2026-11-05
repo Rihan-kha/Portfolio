@@ -28,6 +28,9 @@ import {
   python,
   inamigo,
   MangoStore,
+  Valentine,
+  Plateformer,
+  FlappyBirdAi,
 } from "../assets";
 
 export const navLinks = [
@@ -137,6 +140,61 @@ const projects = [
     ],
     image: MangoStore,
     source_code_link: "https://rihan-kha.github.io/Product-mango-juice-store/",
+  },
+  {
+    name: "Valentine's Day",
+    description:
+      "Made an interactive 3D Valentine's Day greeting card, allowing users to explore a virtual environment and experience a romantic atmosphere.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Valentine,
+    source_code_link: "https://rihan-kha.github.io/valentine/",
+  },
+  {
+    name: "Plateformer game",
+    description:
+      "Designed and developed a 2D platform game inspired by classic titles such as Super Mario, using Python and Pygame. The project focuses on creating an engaging gameplay experience while demonstrating game development fundamentals, including player movement, level design, and interactive environments.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pygame",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Plateformer,
+    source_code_link: "https://github.com/Rihan-kha/Plateformer-game",
+  },
+  {
+    name: "Flappy Bird",
+    description:
+      "Developed a Flappy Bird-inspired game using Python and Pygame, then applied machine learning to create an agent that can play the game autonomously. This project explores how an intelligent agent can interact with a game environment and make decisions based on gameplay.",
+    tags: [
+      {
+        name: "Pygame",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "neat",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: FlappyBirdAi,
+    source_code_link: "https://github.com/Rihan-kha/Flappy-bird-AI",
   },
   
 ];

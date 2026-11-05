@@ -34,6 +34,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import MangoStore from "./MangoStore.png";
+import Valentine from "./Valentine.png";
+import Plateformer from "./Plateformer.png";
+import FlappyBirdAi from "./FlappyBirdAi.png";
 
 export {
   logo,
@@ -69,5 +72,8 @@ export {
   python,
   inamigo,
   MangoStore,
+  Valentine,
+  Plateformer,
+  FlappyBirdAi
 
 };
