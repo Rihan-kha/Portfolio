@@ -12,6 +12,9 @@ const ServiceCard = ({ index, title, icon }) => {
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+        initial='hidden'
+        whileInView='show'
+        viewport={{ once: true, amount: 0.25 }}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
       >
         <div
@@ -50,6 +53,26 @@ const About = () => {
       >
         I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+      
+      <div className='mt-6 flex items-center flex-wrap gap-3 text-[18px] font-medium'>
+        <a
+          href='https://www.linkedin.com/in/rihan-riyaz-khan-304582341/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-white hover:text-[#915eff] transition-colors duration-200'
+        >
+          LinkedIn
+        </a>
+        <span className='text-white/60'>|</span>
+        <a
+          href='https://github.com/Rihan-kha'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-white hover:text-[#915eff] transition-colors duration-200'
+        >
+          Github
+        </a>
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
